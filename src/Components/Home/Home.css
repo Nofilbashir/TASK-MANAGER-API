@@ -1,0 +1,92 @@
+.Home{
+    width: 100vw;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Form{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.Form div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Form div label{
+    width: 40%;
+
+}
+.Form div input{
+    width: 60%;
+    background-color: transparent;
+
+}
+.Medicinename{
+    border: 1px solid ;
+    padding: 1.5rem;
+    color: var(--text);
+}
+.DatePicker{
+    height: 2rem;
+    padding: 1.5rem;
+    border: 1px dotted var(--bgVariant);
+    outline: none;
+    color: var(--bgVariant);
+}
+.deleteBtnContainer{
+    position: fixed;
+    right: 2rem;
+    top: 4rem;
+}
+.deleteBtn{
+    background-color: #e12122;
+
+
+}
+
+
+
+.TableContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Table{
+    width: 80%;
+    height: 1rem;
+    border-top: 1px solid var(--bgVariant);
+ 
+}
+
+
+th{
+    text-align: center;
+    padding: 8px;
+}
+td{
+    text-align: left;
+    padding: 8px;
+    border: none;
+    outline: none;
+
+  }
+  
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    color:var(--bg);
+
+  }
+
